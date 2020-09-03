@@ -1,0 +1,222 @@
+hr{
+    border-style: none;
+    border-top: dotted;
+    background-color: #bbe1fa;
+    color: #1b262c;
+    width: 7%;
+    border-width: 0.9rem;
+    margin-top: 2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+/*navbar https://colorhunt.co/palette/196113*/ 
+#navbar{
+    background-color: #3282b8;
+    color:#1b262c;
+    font-size: 1.4rem;
+    height: 4.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+#brandy{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: #1b262c;
+}
+
+#HobbiesNav,#EstebanNav, #EducationNav, #SkillsNav, #contactMeNav, #navbarDropdownMenuLink{
+    font-family:'Raleway', sans-serif;;
+    color: #1b262c;
+}
+
+#HobbiesNav:hover,#EstebanNav:hover, #EducationNav:hover, #SkillsNav:hover, #contactMeNav:hover, #navbarDropdownMenuLink:hover{
+    color: white;
+}
+.dropdown-item{
+    color: #0f4c75;
+    color: yellow;
+}
+
+.dropdown-item:hover{
+    background-color: #1b262c;
+    color: whitesmoke;
+    
+}
+
+.dropdown-menu{
+    background-color: #1b262c;
+}
+
+
+/* Esteban desc*/
+#Esteban{
+    background-color: #3282b8;
+    color: #1b262c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    padding: 3rem 12rem;
+    position: relative;
+    top: 4rem ;
+}
+
+.profilePic{
+    border-radius: 100%;
+    width: 15.375rem;
+    
+} 
+
+.titleId{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4.5rem;
+}
+
+/* Educacion*/
+
+#Education{
+    background-color: #bbe1fa;
+    padding: 11rem 0 3rem;
+    margin-top: 2rem;
+    color: #1b262c;
+}
+
+.carousel-inner{
+    padding: 3rem 17rem;
+    
+}
+
+.detail{
+    color: yellow;
+    font-size: 0.6rem;
+}
+
+.educationPic{
+    border-radius: 100%;
+    width: 18.75rem;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.square{
+    border-radius: 0;
+}
+
+.eduText{
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    color: #1b262c;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline:  #1b262c;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 4px solid #1b262c;
+  background-image: none;
+  z-index: 0;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #1b262c;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #1b262c;
+}
+
+/*Skills*/
+
+#Skills{
+    background-color: #bbe1fa;
+    padding: 8.5rem 0 3rem;
+    color: #1b262c;
+
+}
+
+.skill{
+    font-family: 'Sanchez',serif;
+
+}
+
+.skillHobbyPic{
+    width:12.25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*Hobby*/
+#Hobbies{
+    background-color: #bbe1fa;
+    padding: 8.5rem 0 3rem;
+    color: #1b262c;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*ContactME*/
+
+#ContactMe{
+    background-color: #bbe1fa;
+    padding: 8.5rem 6rem 0.6rem;
+    color: #1b262c;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.btn{
+    font-family: 'Sanchez',serif;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.end{
+    margin-top: 2rem;
+}
+
+@media (max-width:992px){
+    .navbar-collapse{
+        background-color: #0f4c75;
+        padding-left: 2rem;
+    }
+
+    .nav-link{
+        color: #bbe1fa;
+    }
+
+    .carousel-inner{
+        padding: 3rem 2rem;
+    }
+
+
+    .eduText{
+        text-align: center;
+    }
+
+
+    #EstebanNav,#HobbiesNav, #EducationNav, #SkillsNav, #contactMeNav, #navbarDropdownMenuLink{
+        color: white;
+    }
+    #HobbiesNav:hover,#EstebanNav:hover, #EducationNav:hover, #SkillsNav:hover, #contactMeNav:hover, #navbarDropdownMenuLink:hover{
+        color: yellow;
+    }
+
+    .skill{
+        text-align: center;
+    }
+}
