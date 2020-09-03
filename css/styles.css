@@ -4,7 +4,7 @@ hr{
     background-color: #bbe1fa;
     color: #1b262c;
     width: 7%;
-    border-width: 0.9rem;
+    border-width: 0.6rem;
     margin-top: 2rem;
 }
 
@@ -65,6 +65,7 @@ hr{
     padding: 3rem 12rem;
     position: relative;
     top: 4rem ;
+    z-index: -1;
 }
 
 .profilePic{
@@ -83,8 +84,9 @@ hr{
 #Education{
     background-color: #bbe1fa;
     padding: 11rem 0 3rem;
-    margin-top: 2rem;
+   /* margin-top: 2rem;*/
     color: #1b262c;
+    position: relative;
 }
 
 .carousel-inner{
@@ -147,7 +149,7 @@ hr{
     background-color: #bbe1fa;
     padding: 8.5rem 0 3rem;
     color: #1b262c;
-
+    position: relative;
 }
 
 .skill{
@@ -167,6 +169,7 @@ hr{
     padding: 8.5rem 0 3rem;
     color: #1b262c;
     font-family: 'Raleway', sans-serif;
+    position: relative;
 }
 
 /*ContactME*/
@@ -176,7 +179,7 @@ hr{
     padding: 8.5rem 6rem 0.6rem;
     color: #1b262c;
     font-family: 'Raleway', sans-serif;
-
+    position: relative;
 }
 
 .btn{
@@ -219,4 +222,15 @@ hr{
     .skill{
         text-align: center;
     }
+
+    #navbar,#Esteban,#Skills,#Hobbies,#Education,#ContactMe{
+        z-index: 0;
+        top: auto;
+    }
+
+    #navbar{
+        position: relative;
+        z-index: 1;
+    }
+
 }
